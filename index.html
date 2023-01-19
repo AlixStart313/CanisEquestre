@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Repaso HTMl</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/img/vetIcon.png"
+      type="image/x-icon"/>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"/>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assets/img/vetIcon.png" width="50" height="50"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Inicio</a
+              >
+              <a class="nav-link" href="#about">Acerca de nosotros</a>
+              <a class="nav-link" href="#contact">Contacto</a>
+              <a
+                class="nav-link"
+                href="#footer"
+                tabindex="-1"
+                aria-disabled="true"
+                >Redes Sociales</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-10">
+          <section class="shadow-sm p-3 mb-5 bg-body rounded" id="home">
+            <h4 class="text-primary text-center">
+              <i data-feather="github"></i> Bienvenido,Conoce nuestro servicios
+              <i data-feather="github"></i>
+            </h4>
+            <div class="container">
+              <div class="row my-3">
+                <div class="col-12 col-md-4 text-center">
+                  <img
+                    width="300"
+                    height="300"
+                    src="./assets/img/cuidadosEquestres.png"
+                    class="img-thumbnail"
+                    alt="veterinaria morelos cuidado de caballos"
+                  />
+                  <h5 class="my-2">Estetica equina</h5>
+                  <small class="text-start"
+                    >Ven y conciente a tu cuako, lo bañamos, lo cuidamos y lo
+                    tratamos</small
+                  >
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                  <img
+                    width="300"
+                    height="300"
+                    src="./assets/img/caballo2.jpg"
+                    class="img-thumbnail"
+                  />
+                  <h5 class="my-2">Consulta</h5>
+                  <small class="text-start"
+                    >Atendemos todo tipo de enfermedad, no dudes en atender tu
+                    caballo con nosotros</small
+                  >
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                  <img
+                    width="300"
+                    height="300"
+                    src="./assets/img/caballo3.jpg"
+                    class="img-thumbnail"
+                  />
+                  <h5 class="my-2">Vacunas y demas</h5>
+                  <small class="text-start"
+                    >Estamos capacitados para atender todas las necesidades de
+                    su caballo</small
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="shadow-sm p-3 mb-5 bg-body rounded" id="about">
+            <h4 class="text-primary text-center">
+              <i data-feather="help-circle"></i>Acerca de nosotros
+            </h4>
+            <div class="container">
+              <p>
+                Somos una veterinaria al cuidado de caballos, nuestro objetivo
+                es que nuestros queridos amigos tengasn un vida feliz y
+                saludable desde el momento que nacen. Estamos ubicados en el
+                municipio de cuernava en el estado de morelos, tenemos mas de 25
+                años de experiencia en el cuidado de caballos
+              </p>
+              <div class="row">
+                <div class="col-12 col-md-6 text-center">
+                  <div class="row">
+                    <div class="col-12">
+                      <img
+                        src="./assets/img/ayuda.png"
+                        alt=""
+                        width="100"
+                        height="100"
+                      />
+                      <p class="text-pink">Amor por los caballos</p>
+                    </div>
+                    <div class="col-12">
+                      <img
+                        src="./assets/img/caballoIcon.png"
+                        alt=""
+                        width="100"
+                        height="100"
+                      />
+                      <p class="bd-orange-800">
+                        Cuidado y dedicacion por los caballos
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15104.263531261766!2d-99.20828516044921!3d18.8397382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdd89fc498e949%3A0xb096cca5b6b825e8!2sVeterinaria%20Cl%C3%ADnica%20Canis!5e0!3m2!1ses!2smx!4v1673538287387!5m2!1ses!2smx"
+                    width="100%"
+                    height="300"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="shadow-sm p-3 mb-5 bg-body rounded" id="contact">
+            <h4 class="text-primary text-center">
+              <i data-feather="mail"></i>Contactanos
+            </h4>
+            <div class="container">
+              <form>
+                <div class="row">
+                  <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                      <label for="email" class="form-label"
+                        >Correo electronico</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        aria-describedby="emailHelp"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <div class="mb-3">
+                      <label for="phone" class="form-label"
+                        >Numero de telefono</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control"
+                        id="phone"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="mb-3">
+                      <label for="description" class="form-label"
+                        >mensaje</label
+                      >
+                      <textarea
+                        row="3"
+                        class="form-control"
+                        id="description"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-12 text-end">
+                    <button class="btn btn-success px-3" type="submit">
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 col-md-2">
+          <aside>
+            <div class="card">
+              <img
+                src="./assets/img/vacunacionEquestre.jpg"
+                class="card-img-top img-thumbnail border-danger-img"
+                alt="Semana de la vacuacion equestre veterinaria morelos"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-danger">
+                  Semana de la vacunacion equestre
+                </h5>
+                <p class="card-text">
+                  Estaremos aplicando vacunas de todo tipo a nuestros queridos
+                  juanes del <b>primero de enero al 15 de enero</b>.acerate a
+                  nuestro consultorio para mas informacion o da clic en el boton
+                  de abajo
+                </p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-light text-muted" id="footer">
+        <!-- Section: Social media -->
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+        >
+          <!-- Right -->
+          <div>
+            <a
+              target="_blank"
+              href="https://facebook.com/"
+              class="me-4 text-reset"
+            >
+              <i class="text-primary" data-feather="facebook"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://twitter.com/?lang=es"
+              class="me-4 text-reset"
+            >
+            <i class="text-primary" data-feather="twitter"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/"
+              class="me-4 text-reset"
+            >
+            <i class="text-primary" data-feather="instagram"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://mx.linkedin.com/"
+              class="me-4 text-reset"
+            >
+            <i class="text-primary" data-feather="linkedin"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://github.com/"
+              class="me-4 text-reset"
+            >
+              <i class="text-primary" data-feather="github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Veterinaria Canias:Equestre
+                </h6>
+                <p>
+                  Siguenos en todas nuestras redes sociales para conocer mas de
+                  nosotros y estar al pendiente de nuestras multiples ofertas
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Servcios</h6>
+
+                <p>
+                  <a href="#!" class="text-reset">Estetica Equestre</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Consulta veterinaria</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Vacunas</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Accesorios</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+                <p><i class="text-pink" data-feather="home"></i> Av Temixco, Juan de La Barrera, Benito Juárez, 62760 Emiliano Zapata, Mor.</p>
+                <p>
+                  <i class="text-danger" data-feather="mail"></i>
+                  wa.me/message/Z3C2GDM6CUJIB1
+                </p>
+                <p><i class="text-Success" data-feather="phone"></i> 777 235 7504</p>
+                <p><i class="text-primary" data-feather="phone"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center p-4"
+          style="background-color: rgba(0, 0, 0, 0.05)"
+        >
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
+            >Veterinaria Canis:Equestre</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    </div>
+
+    <!--
+    <Header id="header">
+    
+    <nav>
+        <li>
+            <a href="#home">Inicion</a>
+            <a href="#about">Perfil</a>
+            <a href="#contact">Contacto</a>
+        </li>
+    </nav>
+    <section id="home">
+        <h4>Inicio</h4>
+        <figure>
+            <img src="./assets/img/veterinario.jpg" alt="VETERIA-DE-EQUINOS" width="200" height="120">
+        </figure>
+        <small></small>
+    </section>
+    <section id="about">
+        <h4>Acerca de nosotros</h4>
+    <p>somos una empresa dedicada al cuidado de equinos, con el objetivo de cuidar y mantener en buen estado a nuestros queridos amigos</p>
+    </section>
+    <section id="contact">
+        <form action="">
+            <label for=""> Correo Electronico</i></label>
+            <input type="email" name="" id="" required>
+            <label for="">Telefono</label>
+            <input type="phone" required minlength="10" maxlength="12">
+            <label for="">Mensaje</label>
+            <textarea  rows="3"></textarea>
+           <button type="submit">Enviar</button>
+           <input type="color">
+        </form>
+    </section>
+    <div class="container-fluid">
+<div class="tow">
+    <div class="bg-primary col-12 col-md-6 col-xl-4" ></div>
+</div>
+    </div>
+    <section>
+
+    </section>
+    <aside>
+
+    </aside>
+    <footer>
+        <p>Create by UTEZ</p>
+    </footer>
+-->
+
+<script src="./js/index.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>

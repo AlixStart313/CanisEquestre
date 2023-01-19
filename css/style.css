@@ -1,0 +1,38 @@
+
+/*
+ader{
+    background-color: rgb(185, 233, 233) !important;
+    width: 100% !important; 
+    padding: 5px !important;
+}
+/*
+Este es un atriuto de elemtro
+
+.header{
+    background-color: rgb(158, 83, 228);
+    width: 100%;
+    padding: 5px;
+}
+
+
+
+#header{
+    background-color: blue !important;
+    color: aliceblue !important;
+    width: 100% !important;
+    padding: 5px !important;
+}
+
+/* Este es un atributo de id*/
+
+.border-danger-img{
+    background-color: #70534f !important;
+}
+
+.text-pink{
+    color: #d63384;
+}
+
+.bd-orange-800 {
+    color: #653208;
+}
